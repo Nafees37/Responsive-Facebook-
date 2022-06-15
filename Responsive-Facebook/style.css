@@ -1,0 +1,230 @@
+body {
+	margin: 0;
+	font-family: verdana;
+}
+/* ================================= */
+/*      Common css Start             */
+/* ================================= */
+
+.w-50 {
+	width: 50%;
+	float: left;
+	box-sizing: border-box;
+}
+
+.container {
+	overflow: hidden;
+	width: 80%;
+	margin: auto;
+}
+
+.line {
+	border-top: 1px solid  #dadde1;
+	margin: 20px 0;
+}
+
+
+
+
+/* ================================= */
+/*      Common css End            */
+/* ================================= */
+
+
+/* ================================= */
+/*      Main Area Start              */
+/* ================================= */
+
+.main-area {
+	background: #f0f2f5;
+	overflow: hidden;
+	padding: 133px 0 ;
+}
+.main-area .facebook-image {
+	margin-top: 42px;
+}
+
+
+.main-area .facebook-image img {
+	width: 310px;
+}
+
+.main-area .facebook-help h3{
+	margin: -6px 0 0 28px ;
+	font-size: 25px;
+	color: #1c1e21;
+	font-weight: normal;
+}
+
+.main-area .login-form {
+	background: #ffffff;
+	padding: 15px 20px;
+	border-radius: 6px;
+	text-align: center;
+	width: 67%;
+	margin: auto;
+}
+
+.main-area .login-form input {
+	display: block;
+	width: 100%;
+	box-sizing:border-box;
+}
+
+.main-area .login-form  input[type="text"], 
+.main-area .login-form  input[type="password"] {
+	padding: 15px;
+	font-size: 18px;
+	border-radius: 5px;
+	margin-bottom: 15px;
+	border: 1px solid #c2c4c9;
+}
+
+::placeholder {
+	color: #c2c4c9;
+
+}
+
+.main-area .login-form  input[type="submit"] {
+	background: #1877f2;
+	color: #ffffff;
+	padding: 15px 0;
+	border: none;
+	border-radius: 5px;
+	font-weight: bold;
+	font-size: 22px;
+	font-family: arial;
+	margin-bottom: 18px;
+}
+.main-area .login-form  input[type="text"]:focus,
+.main-area .login-form  input[type="password"]:focus {
+	border: 1px solid #c2c4c9;
+}
+
+.main-area .login-form .forgot-link {
+	color: #3588f3;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+.main-area .login-form .forgot-link:hover {
+	text-decoration:underline;
+}
+
+
+
+.main-area .login-form .new-acc-link {
+	background: #42b72a;
+	padding: 15px 12px;
+	display: inline-block;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: arial;
+	font-size: 18px;
+	border-radius: 5px;
+	
+	
+}
+
+.main-area .create-page {
+	text-align: center;
+	margin-top : 25px;
+}
+
+.main-area .create-page a {
+	text-decoration: none;
+	color: #1c1e21;
+	font-weight: bold;
+}
+
+.main-area .create-page p{
+	color: #1c1e21;
+	font-size: 14px;
+}
+
+/* ================================= */
+/*      Main Area End             */
+/* ================================= */
+
+
+
+
+/* ================================= */
+/*      fotter Area start             */
+/* ================================= */
+
+.footer-area {
+	padding: 30px 0;
+}
+
+.footer-area .languages ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	color: #8a8d91;
+	font-size: 14px;
+	overflow: hidden;
+}
+
+.footer-area .languages ul a {
+	color: #8a8d91;
+	text-decoration: none;
+	
+}
+
+.footer-area .languages ul li {
+	float: left;
+	margin-right: 15px;
+	
+}
+.footer-area .languages .plus {
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.footer-area .custom-links ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	color: #8a8d91;
+	font-size: 14px;
+	overflow: hidden;
+}
+
+.footer-area .custom-links ul a {
+	color: #8a8d91;
+	text-decoration: none;
+}
+
+.footer-area .custom-links ul li {
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 5px;
+}
+
+.footer-area .copyright {
+	font-size: 14px;
+	margin-top: 45px;
+	color: #8888bd;
+	
+}
+.footer-area .languages ul a:hover {
+	text-decoration: underline;
+}
+
+.footer-area .custom-links ul a:hover {
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
+/* ================================= */
+/*      fotter Area End             */
+/* ================================= */
+
+
